@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calc</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div class="c">
+	<input type="text" id="out">
+	<table>
+		<tr>
+			<td><input type="button" value="C" onclick="cl()"></td>
+			<td><input type="button" value="<" onclick="back()"></td>
+			<td><input type="button" value="/" onclick="inc('/')"></td>
+			<td><input type="button" value="*" onclick="inc('*')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onclick="inc(7)"></td>
+			<td><input type="button" value="8" onclick="inc(8)"></td>
+			<td><input type="button" value="9" onclick="inc(9)"></td>
+			<td><input type="button" value="+" onclick="inc('+')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="inc(4)"></td>
+			<td><input type="button" value="5" onclick="inc(5)"></td>
+			<td><input type="button" value="6" onclick="inc(6)"></td>
+			<td><input type="button" value="-" onclick="inc('-')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onclick="inc(1)"></td>
+			<td><input type="button" value="2" onclick="inc(2)"></td>
+			<td><input type="button" value="3" onclick="inc(3)"></td>
+			<td><input type="button" value="=" onclick="res()"></td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
